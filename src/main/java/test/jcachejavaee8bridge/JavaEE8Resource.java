@@ -41,7 +41,7 @@ public class JavaEE8Resource {
             resp = "Visit https://jcp.org/en/jsr/detail?id=" + jsrNum ;
             cache.put(jsrNum, resp);
         }else{
-            resp = "I told you before!\n" + cache.get(jsrNum);
+            resp = "Don't worry. I have this cached! \n" + cache.get(jsrNum);
         }
         
         return Response.ok(resp).build(); 
