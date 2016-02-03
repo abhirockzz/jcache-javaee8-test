@@ -1,0 +1,17 @@
+<caches>
+    <caching-provider>org.jsr107.ri.spi.RICachingProvider</caching-provider>
+    <cache name="jsrinfocache">
+        <configuration>
+            <property name="store.by.value" value="true"/>
+            <property name="management.enabled" value="false"/>
+            <property name="statistics.enabled" value="true"/>
+        </configuration>
+    </cache>
+    <cache name="anotherone">
+        <configuration>
+            <property name="store.by.value" value="false"/>
+            <property name="management.enabled" value="true"/>
+            <property name="statistics.enabled" value="false"/>
+        </configuration>
+    </cache>
+</caches>
